@@ -11,7 +11,3 @@ Command to start the bot:
 
 
 Note: It works only with Custom Connectors, for more details head on to http://rasa.com/docs/rasa/user-guide/connectors/custom-connectors/
-
-![ScreenShot](https://github.com/JiteshGaikwad/Rasa_CustomUI-v0.1/blob/master/ui1.PNG)
-
-![ScreenShot](https://github.com/JiteshGaikwad/Rasa_CustomUI-v0.1/blob/master/ui2.PNG)
