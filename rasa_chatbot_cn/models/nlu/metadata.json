@@ -1,0 +1,92 @@
+{
+    "language": "zh",
+    "pipeline": [
+        {
+            "dictionary_path": null,
+            "name": "JiebaTokenizer",
+            "class": "rasa.nlu.tokenizers.jieba_tokenizer.JiebaTokenizer"
+        },
+        {
+            "BILOU_flag": true,
+            "features": [
+                [
+                    "low",
+                    "title",
+                    "upper"
+                ],
+                [
+                    "bias",
+                    "low",
+                    "prefix5",
+                    "prefix2",
+                    "suffix5",
+                    "suffix3",
+                    "suffix2",
+                    "upper",
+                    "title",
+                    "digit",
+                    "pattern"
+                ],
+                [
+                    "low",
+                    "title",
+                    "upper"
+                ]
+            ],
+            "max_iterations": 50,
+            "L1_c": 0.1,
+            "L2_c": 0.1,
+            "name": "CRFEntityExtractor",
+            "file": "component_1_CRFEntityExtractor.pkl",
+            "class": "rasa.nlu.extractors.crf_entity_extractor.CRFEntityExtractor"
+        },
+        {
+            "part_of_speech": [
+                "nr"
+            ],
+            "name": "JiebaPsegExtractor",
+            "class": "rasa_nlu_gao.extractors.jieba_pseg_extractor.JiebaPsegExtractor"
+        },
+        {
+            "ip": "127.0.0.1",
+            "port": 5555,
+            "port_out": 5556,
+            "show_server_config": true,
+            "output_fmt": "ndarray",
+            "check_version": false,
+            "timeout": 10000,
+            "identity": null,
+            "batch_size": 128,
+            "name": "BertVectorsFeaturizer",
+            "class": "rasa_nlu_gao.featurizers.bert_vectors_featurizer.BertVectorsFeaturizer"
+        },
+        {
+            "num_hidden_layers": 2,
+            "hidden_layer_size": [
+                1024,
+                256
+            ],
+            "batch_size": 256,
+            "epochs": 300,
+            "learning_rate": 0.001,
+            "C2": 0.002,
+            "droprate": 0.2,
+            "intent_tokenization_flag": false,
+            "intent_split_symbol": "_",
+            "evaluate_every_num_epochs": 10,
+            "evaluate_on_num_examples": 1000,
+            "config_proto": {
+                "device_count": 12,
+                "inter_op_parallelism_threads": 0,
+                "intra_op_parallelism_threads": 0,
+                "allow_growth": true
+            },
+            "name": "EmbeddingBertIntentClassifier",
+            "file": "component_4_EmbeddingBertIntentClassifier",
+            "class": "rasa_nlu_gao.classifiers.embedding_bert_intent_classifier.EmbeddingBertIntentClassifier"
+        }
+    ],
+    "training_data": "training_data.json",
+    "trained_at": "20190806-101032",
+    "rasa_version": "1.1.8"
+}

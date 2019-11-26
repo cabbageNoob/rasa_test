@@ -1,0 +1,31 @@
+digraph  {
+0 [class="start active", fillcolor=green, fontsize=12, label=START, style=filled];
+1 [class="", fontsize=12, label=utter_greet];
+2 [class=active, fontsize=12, label=utter_ask_time];
+"-6" [class=ellipsis, label="..."];
+6 [class="", fontsize=12, label=utter_ask_package];
+"-8" [class=ellipsis, label="..."];
+"-9" [class=ellipsis, label="..."];
+8 [class="", fontsize=12, label=action_search];
+9 [class="", fontsize=12, label=action_search_consume];
+"-10" [class=ellipsis, label="..."];
+11 [class="intent dashed active", label="  ?  ", shape=rect];
+12 [class=intent, fillcolor=lightblue, label="\/greet", shape=rect, style=filled];
+13 [class="intent active", fillcolor=lightblue, label="\查\一\下\我\电\话\号\码", shape=rect, style=filled];
+14 [class=intent, fillcolor=lightblue, label="\/request_management\{\\"item\\"\:\ \\"\\u5957\\u9910\\"\}", shape=rect, style=filled];
+15 [class=intent, fillcolor=lightblue, label="\帮\我\查\一\下\六\月\份\流\量", shape=rect, style=filled];
+0 -> 12  [class="", key=0];
+0 -> 13  [class=active, key=0];
+0 -> 14  [class="", key=0];
+0 -> 15  [class="", key=0];
+1 -> "-9"  [class="", key=NONE, label=""];
+2 -> "-6"  [class="", key=NONE, label=""];
+2 -> 11  [class=active, key=NONE, label=""];
+6 -> "-8"  [class="", key=NONE, label=""];
+8 -> 9  [class="", key=NONE, label=""];
+9 -> "-10"  [class="", key=NONE, label=""];
+12 -> 1  [class="", key=0];
+13 -> 2  [class=active, key=0];
+14 -> 6  [class="", key=0];
+15 -> 8  [class="", key=0];
+}

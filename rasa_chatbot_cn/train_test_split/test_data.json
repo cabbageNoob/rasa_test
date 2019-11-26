@@ -1,0 +1,6242 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "confirm",
+        "text": "你看着办"
+      },
+      {
+        "intent": "confirm",
+        "text": "办理"
+      },
+      {
+        "intent": "confirm",
+        "text": "行"
+      },
+      {
+        "intent": "confirm",
+        "text": "好的"
+      },
+      {
+        "intent": "confirm",
+        "text": "肯定"
+      },
+      {
+        "intent": "confirm",
+        "text": "办理吧"
+      },
+      {
+        "intent": "confirm",
+        "text": "中"
+      },
+      {
+        "intent": "confirm",
+        "text": "一定"
+      },
+      {
+        "intent": "confirm",
+        "text": "确定"
+      },
+      {
+        "intent": "confirm",
+        "text": "办理吧"
+      },
+      {
+        "intent": "confirm",
+        "text": "就这样"
+      },
+      {
+        "intent": "confirm",
+        "text": "办理"
+      },
+      {
+        "intent": "confirm",
+        "text": "一定"
+      },
+      {
+        "intent": "deny",
+        "text": "不用了"
+      },
+      {
+        "intent": "deny",
+        "text": "不要办"
+      },
+      {
+        "intent": "deny",
+        "text": "不用了"
+      },
+      {
+        "intent": "deny",
+        "text": "不好啦"
+      },
+      {
+        "intent": "deny",
+        "text": "暂时不用了"
+      },
+      {
+        "intent": "deny",
+        "text": "不办"
+      },
+      {
+        "intent": "deny",
+        "text": "我再考虑考虑"
+      },
+      {
+        "intent": "deny",
+        "text": "好不用了"
+      },
+      {
+        "intent": "goodbye",
+        "text": "拜拜"
+      },
+      {
+        "intent": "goodbye",
+        "text": "拜拜"
+      },
+      {
+        "intent": "goodbye",
+        "text": "拜"
+      },
+      {
+        "intent": "goodbye",
+        "text": "再见"
+      },
+      {
+        "intent": "goodbye",
+        "text": "回见"
+      },
+      {
+        "intent": "goodbye",
+        "text": "拜"
+      },
+      {
+        "intent": "greet",
+        "text": "喂 在吗"
+      },
+      {
+        "intent": "greet",
+        "text": "喂 你是哪个"
+      },
+      {
+        "intent": "greet",
+        "text": "您是 hey"
+      },
+      {
+        "intent": "greet",
+        "text": "喂 hey"
+      },
+      {
+        "intent": "greet",
+        "text": "喂 你是哪个"
+      },
+      {
+        "intent": "greet",
+        "text": "你好"
+      },
+      {
+        "intent": "greet",
+        "text": "你是谁 你是谁"
+      },
+      {
+        "intent": "greet",
+        "text": "您是"
+      },
+      {
+        "intent": "greet",
+        "text": "您好吗 hello"
+      },
+      {
+        "intent": "greet",
+        "text": "您是哪个 您好吗"
+      },
+      {
+        "intent": "greet",
+        "text": "你好 您是哪个"
+      },
+      {
+        "intent": "greet",
+        "text": "你是哪个 哪个"
+      },
+      {
+        "intent": "greet",
+        "text": "hey 您好吗"
+      },
+      {
+        "intent": "greet",
+        "text": "您是哪个 您好吗"
+      },
+      {
+        "intent": "greet",
+        "text": "您好吗 hello"
+      },
+      {
+        "intent": "greet",
+        "text": "喂"
+      },
+      {
+        "intent": "inform_current_phone",
+        "text": "本机"
+      },
+      {
+        "intent": "inform_current_phone",
+        "text": "我查本机的"
+      },
+      {
+        "intent": "inform_current_phone",
+        "text": "本机"
+      },
+      {
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "流量",
+            "entity": "item"
+          }
+        ],
+        "text": "流量"
+      },
+      {
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "十二月",
+            "entity": "time"
+          }
+        ],
+        "text": "是 十二月 就可以"
+      },
+      {
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "当前月",
+            "entity": "time"
+          }
+        ],
+        "text": "当前月 就可以"
+      },
+      {
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "上个月",
+            "entity": "time"
+          }
+        ],
+        "text": "是 上个月 吧"
+      },
+      {
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "五月",
+            "entity": "time"
+          }
+        ],
+        "text": "五月 就行"
+      },
+      {
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "话费",
+            "entity": "item"
+          }
+        ],
+        "text": "话费"
+      },
+      {
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "五月",
+            "entity": "time"
+          }
+        ],
+        "text": "是 五月 吧"
+      },
+      {
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "这个月",
+            "entity": "time"
+          }
+        ],
+        "text": "这个月 可以"
+      },
+      {
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "本月",
+            "entity": "time"
+          }
+        ],
+        "text": "是 本月 就好"
+      },
+      {
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "当前月",
+            "entity": "time"
+          }
+        ],
+        "text": "当前月 就可以"
+      },
+      {
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 2,
+            "end": 6,
+            "value": "上上个月",
+            "entity": "time"
+          }
+        ],
+        "text": "是 上上个月 可以"
+      },
+      {
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "八月",
+            "entity": "time"
+          }
+        ],
+        "text": "是 八月 吧"
+      },
+      {
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "四月",
+            "entity": "time"
+          }
+        ],
+        "text": "是 四月 就好"
+      },
+      {
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "十一月",
+            "entity": "time"
+          }
+        ],
+        "text": "是 十一月 可以"
+      },
+      {
+        "intent": "inform_item",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "流量",
+            "entity": "item"
+          }
+        ],
+        "text": "流量就行"
+      },
+      {
+        "intent": "inform_other_phone",
+        "text": "非本机号码"
+      },
+      {
+        "intent": "inform_other_phone",
+        "text": "别的号码的"
+      },
+      {
+        "intent": "inform_other_phone",
+        "text": "其他号码"
+      },
+      {
+        "intent": "inform_package",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "套餐 二 就可以"
+      },
+      {
+        "intent": "inform_package",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "套餐 四"
+      },
+      {
+        "intent": "inform_package",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "套餐二",
+            "entity": "package"
+          }
+        ],
+        "text": "套餐二"
+      },
+      {
+        "intent": "inform_package",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "业务 三 可以"
+      },
+      {
+        "intent": "inform_package",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "套餐 四 就行"
+      },
+      {
+        "intent": "inform_package",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "套餐 二 就可以"
+      },
+      {
+        "intent": "inform_package",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "业务 三 就好"
+      },
+      {
+        "intent": "inform_package",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "套餐 一 就可以"
+      },
+      {
+        "intent": "inform_package",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "业务 二 吧"
+      },
+      {
+        "intent": "inform_package",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "业务 四 就可以"
+      },
+      {
+        "intent": "inform_package",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "套餐 二"
+      },
+      {
+        "intent": "inform_package",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "业务 一 就行"
+      },
+      {
+        "intent": "inform_package",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "套餐 四 吧"
+      },
+      {
+        "intent": "inform_package",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "套餐 三 就行"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "上个月",
+            "entity": "time"
+          }
+        ],
+        "text": "上个月 吧]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "四月",
+            "entity": "time"
+          }
+        ],
+        "text": "四月 的 可以]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "二月",
+            "entity": "time"
+          }
+        ],
+        "text": "是二月的"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "五月",
+            "entity": "time"
+          }
+        ],
+        "text": "是 五月 就可以]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "二月",
+            "entity": "time"
+          }
+        ],
+        "text": "二月的"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "一月",
+            "entity": "time"
+          }
+        ],
+        "text": "一月"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "上个月",
+            "entity": "time"
+          }
+        ],
+        "text": "上个月 吧]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "五月",
+            "entity": "time"
+          }
+        ],
+        "text": "是 五月 吧]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "六月",
+            "entity": "time"
+          }
+        ],
+        "text": "六月 的 可以]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "三月",
+            "entity": "time"
+          }
+        ],
+        "text": "是 三月 的 就可以]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "八月",
+            "entity": "time"
+          }
+        ],
+        "text": "是 八月 的 可以]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "六月",
+            "entity": "time"
+          }
+        ],
+        "text": "六月 就可以]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "九月",
+            "entity": "time"
+          }
+        ],
+        "text": "是 九月 的 就行]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "十月",
+            "entity": "time"
+          }
+        ],
+        "text": "十月 的 就行]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "当前月",
+            "entity": "time"
+          }
+        ],
+        "text": "是 当前月 的 就行]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "十一月",
+            "entity": "time"
+          }
+        ],
+        "text": "十一月 ]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "四月",
+            "entity": "time"
+          }
+        ],
+        "text": "四月 的 ]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "五月",
+            "entity": "time"
+          }
+        ],
+        "text": "是 五月 就行]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "九月",
+            "entity": "time"
+          }
+        ],
+        "text": "是 九月 吧]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "本月",
+            "entity": "time"
+          }
+        ],
+        "text": "是 本月 就好]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "九月",
+            "entity": "time"
+          }
+        ],
+        "text": "是 九月 的 ]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "七月",
+            "entity": "time"
+          }
+        ],
+        "text": "七月 就好]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "这个月",
+            "entity": "time"
+          }
+        ],
+        "text": "这个月 的 吧]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "四月",
+            "entity": "time"
+          }
+        ],
+        "text": "四月 可以]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "二月",
+            "entity": "time"
+          }
+        ],
+        "text": "是 二月 就好]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "十月",
+            "entity": "time"
+          }
+        ],
+        "text": "十月 的 ]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "上月",
+            "entity": "time"
+          }
+        ],
+        "text": "上月的"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "四月",
+            "entity": "time"
+          }
+        ],
+        "text": "是 四月 就可以]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "九月",
+            "entity": "time"
+          }
+        ],
+        "text": "九月 的 就行]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "九月",
+            "entity": "time"
+          }
+        ],
+        "text": "九月 的 就行]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "十一月",
+            "entity": "time"
+          }
+        ],
+        "text": "十一月 可以]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "九月",
+            "entity": "time"
+          }
+        ],
+        "text": "是 九月 吧]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "九月",
+            "entity": "time"
+          }
+        ],
+        "text": "九月 的 就好]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "八月",
+            "entity": "time"
+          }
+        ],
+        "text": "是 八月 吧]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "十月",
+            "entity": "time"
+          }
+        ],
+        "text": "十月 的 可以]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "本月",
+            "entity": "time"
+          }
+        ],
+        "text": "本月 就好]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "当前月",
+            "entity": "time"
+          }
+        ],
+        "text": "当前月 的 可以]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "十月",
+            "entity": "time"
+          }
+        ],
+        "text": "十月 的 就行]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "三月",
+            "entity": "time"
+          }
+        ],
+        "text": "是 三月 的 吧]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "四月",
+            "entity": "time"
+          }
+        ],
+        "text": "四月 可以]"
+      },
+      {
+        "intent": "inform_time",
+        "text": "三月份"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "六月",
+            "entity": "time"
+          }
+        ],
+        "text": "六月 ]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "上个月",
+            "entity": "time"
+          }
+        ],
+        "text": "上个月 的 可以]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "四月",
+            "entity": "time"
+          }
+        ],
+        "text": "是 四月 就可以]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "六月",
+            "entity": "time"
+          }
+        ],
+        "text": "六月 可以]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "本月",
+            "entity": "time"
+          }
+        ],
+        "text": "本月 的 可以]"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 1,
+            "end": 4,
+            "value": "十一月",
+            "entity": "time"
+          }
+        ],
+        "text": "是十一月的"
+      },
+      {
+        "intent": "inform_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "十一月",
+            "entity": "time"
+          }
+        ],
+        "text": "十一月"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "超贵",
+            "entity": "price"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "哪个 帮我 开下 超贵 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "六十",
+            "entity": "price"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "你是哪个 请帮我 办理 六十 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "三十",
+            "entity": "price"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "嗨 你能给我 开下 三十 流量 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "二十八",
+            "entity": "price"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "你是谁 请帮我 开 二十八 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "六十",
+            "entity": "price"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "给我 办理 六十 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "便宜",
+            "entity": "price"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "你好 你能不能 办 便宜 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "昂贵",
+            "entity": "price"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "hi 能不能 开下 昂贵 流量 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "二十八",
+            "entity": "price"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "在吗 你能给我 办个 二十八 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "便宜",
+            "entity": "price"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "在吗 办理 便宜 流量 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "二十八",
+            "entity": "price"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "你是 帮我 开一个 二十八 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "三十",
+            "entity": "price"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "hi 请您 开下 三十 流量 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "便宜",
+            "entity": "price"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "你好吗 开下 便宜 流量 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "合适",
+            "entity": "price"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "你是 我想 开下 合适 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "便宜",
+            "entity": "price"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "您是哪个 办个 便宜 流量 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "二十八",
+            "entity": "price"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "你是 帮我 开一个 二十八 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "合适",
+            "entity": "price"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "您是 请 办理 合适 流量 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 14,
+            "end": 16,
+            "value": "适中",
+            "entity": "price"
+          },
+          {
+            "start": 17,
+            "end": 19,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 20,
+            "end": 22,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "hello 你给我 办一下 适中 流量 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "昂贵",
+            "entity": "price"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "你是谁 帮我 办理 昂贵 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "你是谁 给我 开一个 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "二十八",
+            "entity": "price"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "流量",
+            "entity": "item"
+          }
+        ],
+        "text": "我想办二十八的流量套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 13,
+            "end": 15,
+            "value": "超贵",
+            "entity": "price"
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 19,
+            "end": 21,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "hello 能否 开一个 超贵 流量 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "三十",
+            "entity": "price"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "您好 请帮我 办 三十 流量 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "流量",
+            "entity": "item"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "我想开一个新流量套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "便宜",
+            "entity": "price"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "hello 请你 办理 便宜 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "二十八",
+            "entity": "price"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "在吗 请您 开 二十八 流量 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "二十八",
+            "entity": "price"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 17,
+            "end": 19,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "您好吗 请您 办理 二十八 流量 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "二十八",
+            "entity": "price"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "我想 开下 二十八 流量 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "二十八",
+            "entity": "price"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "你是谁 请帮我 开 二十八 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "昂贵",
+            "entity": "price"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "您好吗 开 昂贵 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "您好 请 办 流量 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "合适",
+            "entity": "price"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "hi 请您 开 合适 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "您好吗 请您 办理 流量 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "便宜",
+            "entity": "price"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "hi 请帮我 开下 便宜 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 14,
+            "end": 16,
+            "value": "昂贵",
+            "entity": "price"
+          },
+          {
+            "start": 17,
+            "end": 19,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "你是哪个 你能给我 开一个 昂贵 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "三十",
+            "entity": "price"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "hi 请您 开下 三十 流量 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "昂贵",
+            "entity": "price"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "你好吗 能否 办 昂贵 流量 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "二十八",
+            "entity": "price"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "hey 你能给我 开 二十八 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "适中",
+            "entity": "price"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "喂 给我 办个 适中 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "超贵",
+            "entity": "price"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "你是 办 超贵 流量 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 13,
+            "end": 15,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "hello 给我 开一个 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "便宜",
+            "entity": "price"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "hello 请你 办理 便宜 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "您是 请 办一下 流量 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "合适",
+            "entity": "price"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "hello 给我 办个 合适 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "昂贵",
+            "entity": "price"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "您好 请 办个 昂贵 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "适中",
+            "entity": "price"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "你是哪个 办理 适中 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "您是哪个 请您 开下 流量 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "超贵",
+            "entity": "price"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "你是 办 超贵 流量 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "你是谁 给我 开一个 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "便宜",
+            "entity": "price"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "在吗 帮我 办一下 便宜 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "昂贵",
+            "entity": "price"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "你是哪个 给我 办理 昂贵 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "你好吗 请 开 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "您是 给我 办 流量 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "昂贵",
+            "entity": "price"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "您是 请帮我 办个 昂贵 流量 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "适中",
+            "entity": "price"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "hello 请你 办 适中 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "流量",
+            "entity": "item"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "给我办一个新流量业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "二十八",
+            "entity": "price"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "hey 请帮我 办个 二十八 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "二十八",
+            "entity": "price"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "喂 请您 开 二十八 流量 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "六十",
+            "entity": "price"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "喂 给我 办 六十 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "六十",
+            "entity": "price"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "你好吗 请帮我 办 六十 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "昂贵",
+            "entity": "price"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "你是谁 帮我 办理 昂贵 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "便宜",
+            "entity": "price"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "你是谁 请帮我 办一下 便宜 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "三十",
+            "entity": "price"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "在吗 你能给我 开 三十 流量 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "便宜",
+            "entity": "price"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "您好 你能不能 开 便宜 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "便宜",
+            "entity": "price"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "您好 你能不能 开 便宜 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "昂贵",
+            "entity": "price"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "hi 开一个 昂贵 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "超贵",
+            "entity": "price"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "你是 请您 办 超贵 流量 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "适中",
+            "entity": "price"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 17,
+            "end": 19,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "你好吗 你给我 办个 适中 流量 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "六十",
+            "entity": "price"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 17,
+            "end": 19,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "在吗 你给我 开一个 六十 流量 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "三十",
+            "entity": "price"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "在吗 请你 开下 三十 流量 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "适中",
+            "entity": "price"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 18,
+            "end": 20,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "你是谁 你给我 办一下 适中 流量 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "三十",
+            "entity": "price"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "hi 请你 办个 三十 流量 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "嗨 请您 办 流量 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 14,
+            "end": 16,
+            "value": "昂贵",
+            "entity": "price"
+          },
+          {
+            "start": 17,
+            "end": 19,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "你是哪个 你能给我 开一个 昂贵 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "合适",
+            "entity": "price"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "你好 我想 开 合适 流量 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "二十八",
+            "entity": "price"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "我想 开一个 二十八 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "合适",
+            "entity": "price"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "流量",
+            "entity": "item"
+          }
+        ],
+        "text": "我想开一个合适的新流量套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "便宜",
+            "entity": "price"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "你好吗 能否 开下 便宜 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 13,
+            "end": 15,
+            "value": "超贵",
+            "entity": "price"
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 19,
+            "end": 21,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "你是谁 你能给我 开一个 超贵 流量 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "适中",
+            "entity": "price"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "嗨 请 开一个 适中 流量 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "您是哪个 请您 办 流量 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "便宜",
+            "entity": "price"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "喂 请你 办理 便宜 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "嗨 你给我 办理 流量 套餐"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "六十",
+            "entity": "price"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "业务",
+            "entity": "package"
+          }
+        ],
+        "text": "您好吗 我想 开 六十 流量 业务"
+      },
+      {
+        "intent": "request_management",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "二十八",
+            "entity": "price"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "流量",
+            "entity": "data_plan"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "套餐",
+            "entity": "package"
+          }
+        ],
+        "text": "喂 给我 办个 二十八 流量 套餐"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "三月",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 24,
+            "value": "18810397783",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你是谁 请你 查查 三月 18810397783"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "三月",
+            "entity": "time"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "消费",
+            "entity": "item"
+          }
+        ],
+        "text": "帮我查一下我的三月份的消费多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "八月",
+            "entity": "time"
+          },
+          {
+            "start": 9,
+            "end": 20,
+            "value": "18045905302",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你好 能否 八月 18045905302 剩下多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "话费",
+            "entity": "item"
+          },
+          {
+            "start": 10,
+            "end": 13,
+            "value": "这个月",
+            "entity": "time"
+          }
+        ],
+        "text": "那个我的话费还有多少这个月"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "九月",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "话费",
+            "entity": "item"
+          }
+        ],
+        "text": "你是哪个 帮我 问 九月 话费 多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "三月",
+            "entity": "time"
+          },
+          {
+            "start": 14,
+            "end": 25,
+            "value": "18810397783",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你好吗 能否 查一下 三月 18810397783 多少流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "十一月",
+            "entity": "time"
+          },
+          {
+            "start": 14,
+            "end": 25,
+            "value": "18506107025",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你好吗 我想 知道 十一月 18506107025"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "上个月",
+            "entity": "time"
+          },
+          {
+            "start": 14,
+            "end": 25,
+            "value": "18045905302",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你好 帮我 看一看 上个月 18045905302 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "九月",
+            "entity": "time"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "消费",
+            "entity": "item"
+          }
+        ],
+        "text": "喂 帮我 看一看 九月 消费 多少话费"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "六月",
+            "entity": "time"
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "value": "流量",
+            "entity": "item"
+          }
+        ],
+        "text": "喂你好你帮我查看一下这个六月我的流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "十月",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 24,
+            "value": "18506107025",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "您是 你能不能 问 十月 18506107025 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "本月",
+            "entity": "time"
+          },
+          {
+            "start": 14,
+            "end": 25,
+            "value": "18506107025",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "hey 给我 查一查 本月 18506107025 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "八月",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 24,
+            "value": "18006208658",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "您是 能否 问一下 八月 18006208658 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "十二月",
+            "entity": "time"
+          },
+          {
+            "start": 12,
+            "end": 23,
+            "value": "18912936976",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "哪个 请 看下 十二月 18912936976 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "十月",
+            "entity": "time"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "流量",
+            "entity": "item"
+          }
+        ],
+        "text": "您好吗 看看 十月 流量 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "本月",
+            "entity": "time"
+          },
+          {
+            "start": 15,
+            "end": 16,
+            "value": "钱",
+            "entity": "item"
+          }
+        ],
+        "text": "你是 你能给我 看一看 本月 钱 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 16,
+            "value": "上上个月",
+            "entity": "time"
+          },
+          {
+            "start": 17,
+            "end": 28,
+            "value": "18912936976",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "哪个 你能不能 看一看 上上个月 18912936976 剩下多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 10,
+            "value": "上上个月",
+            "entity": "time"
+          },
+          {
+            "start": 11,
+            "end": 12,
+            "value": "钱",
+            "entity": "item"
+          }
+        ],
+        "text": "嗨 查一下 上上个月 钱 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "上上个月",
+            "entity": "time"
+          },
+          {
+            "start": 15,
+            "end": 26,
+            "value": "18810397783",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "hello 查一下 上上个月 18810397783 多少话费"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 10,
+            "value": "钱",
+            "entity": "item"
+          }
+        ],
+        "text": "你能给我 查一下 钱 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "消费",
+            "entity": "item"
+          }
+        ],
+        "text": "你能给我看下我消费多少了吗"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "上上个月",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 14,
+            "value": "钱",
+            "entity": "item"
+          }
+        ],
+        "text": "嗨 给我 知道 上上个月 钱 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "消费",
+            "entity": "item"
+          }
+        ],
+        "text": "你给我查下我的月消费情况"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "十月",
+            "entity": "time"
+          },
+          {
+            "start": 11,
+            "end": 22,
+            "value": "17501667971",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "能不能 查一查 十月 17501667971 剩下多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "当前月",
+            "entity": "time"
+          },
+          {
+            "start": 15,
+            "end": 26,
+            "value": "18810397783",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你是谁 你给我 看看 当前月 18810397783 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "17501667971",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "您是哪个 问 17501667971 多少话费"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 15,
+            "value": "三月",
+            "entity": "time"
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "value": "消费",
+            "entity": "item"
+          }
+        ],
+        "text": "hey 你能给我 查一查 三月 消费 多少流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "当前月",
+            "entity": "time"
+          },
+          {
+            "start": 14,
+            "end": 25,
+            "value": "18810397783",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你是哪个 给我 问 当前月 18810397783 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "九月",
+            "entity": "time"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "余额",
+            "entity": "item"
+          }
+        ],
+        "text": "你是谁 给我 九月 余额 多少流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "四月",
+            "entity": "time"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "消费",
+            "entity": "item"
+          }
+        ],
+        "text": "在吗 请你 问 四月 消费 多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "当前月",
+            "entity": "time"
+          },
+          {
+            "start": 15,
+            "end": 26,
+            "value": "18810397783",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你是谁 你给我 看看 当前月 18810397783 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "18912936976",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "18912936976"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 15,
+            "value": "十二月",
+            "entity": "time"
+          },
+          {
+            "start": 17,
+            "end": 19,
+            "value": "流量",
+            "entity": "item"
+          }
+        ],
+        "text": "喂你好你帮我查看一下这个十二月我的流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "这个月",
+            "entity": "time"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "消费",
+            "entity": "item"
+          }
+        ],
+        "text": "帮我查一下我这个月消费多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "四月",
+            "entity": "time"
+          },
+          {
+            "start": 15,
+            "end": 26,
+            "value": "17501667971",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "hello 能不能 问 四月 17501667971 多少流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 16,
+            "value": "七月",
+            "entity": "time"
+          },
+          {
+            "start": 17,
+            "end": 28,
+            "value": "17501667971",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你是哪个 你能不能 看一下 七月 17501667971 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "当前月",
+            "entity": "time"
+          },
+          {
+            "start": 14,
+            "end": 25,
+            "value": "17501667971",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "喂 你能给我 查下 当前月 17501667971 多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "六月",
+            "entity": "time"
+          },
+          {
+            "start": 15,
+            "end": 26,
+            "value": "18045905302",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "您是哪个 帮我 看一下 六月 18045905302 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "五月",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 24,
+            "value": "17501667971",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你好吗 能否 知道 五月 17501667971 多少流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "十月",
+            "entity": "time"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "流量",
+            "entity": "item"
+          }
+        ],
+        "text": "哪个 帮我 知道 十月 流量 多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "十月",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 24,
+            "value": "17501667971",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "hi 请你 看一看 十月 17501667971"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "这个月",
+            "entity": "time"
+          },
+          {
+            "start": 14,
+            "end": 25,
+            "value": "18045905302",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你好吗 请你 知道 这个月 18045905302 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "上个月",
+            "entity": "time"
+          },
+          {
+            "start": 12,
+            "end": 23,
+            "value": "18045905302",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "在吗 请 查下 上个月 18045905302 多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "五月",
+            "entity": "time"
+          },
+          {
+            "start": 9,
+            "end": 20,
+            "value": "17501667971",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "请你 知道 五月 17501667971 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "消费",
+            "entity": "item"
+          }
+        ],
+        "text": "我想问一下我是用了多少话费"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "八月",
+            "entity": "time"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "消费",
+            "entity": "item"
+          }
+        ],
+        "text": "您是 帮我 知道 八月 消费 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "本月",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 14,
+            "value": "钱",
+            "entity": "item"
+          }
+        ],
+        "text": "在吗 能否 看一看 本月 钱 多少流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "本月",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "流量",
+            "entity": "item"
+          }
+        ],
+        "text": "你是 你给我 看下 本月 流量 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "八月",
+            "entity": "time"
+          },
+          {
+            "start": 12,
+            "end": 23,
+            "value": "18006208658",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "您是 能否 查下 八月 18006208658 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "十月",
+            "entity": "time"
+          },
+          {
+            "start": 10,
+            "end": 21,
+            "value": "18006208658",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "hi 看一看 十月 18006208658 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "三月",
+            "entity": "time"
+          },
+          {
+            "start": 10,
+            "end": 21,
+            "value": "18506107025",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "您是 请帮我 三月 18506107025 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 16,
+            "value": "这个月",
+            "entity": "time"
+          },
+          {
+            "start": 17,
+            "end": 28,
+            "value": "18810397783",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "hello 能不能 查下 这个月 18810397783 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "本月",
+            "entity": "time"
+          },
+          {
+            "start": 12,
+            "end": 23,
+            "value": "18045905302",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "哪个 帮我 知道 本月 18045905302 多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "当前月",
+            "entity": "time"
+          },
+          {
+            "start": 14,
+            "end": 25,
+            "value": "18912936976",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你好 我想 查一下 当前月 18912936976"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "十月",
+            "entity": "time"
+          },
+          {
+            "start": 12,
+            "end": 13,
+            "value": "钱",
+            "entity": "item"
+          }
+        ],
+        "text": "嗨 请你 查一查 十月 钱 剩下多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "三月",
+            "entity": "time"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "消费",
+            "entity": "item"
+          }
+        ],
+        "text": "帮我查一下我的三月的消费多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 15,
+            "value": "本月",
+            "entity": "time"
+          },
+          {
+            "start": 16,
+            "end": 27,
+            "value": "17501667971",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "您是哪个 你能不能 看下 本月 17501667971"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "八月",
+            "entity": "time"
+          },
+          {
+            "start": 10,
+            "end": 21,
+            "value": "18045905302",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "嗨 请你 问 八月 18045905302 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "十二月",
+            "entity": "time"
+          },
+          {
+            "start": 14,
+            "end": 25,
+            "value": "18006208658",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "您好吗 帮我 看下 十二月 18006208658 多少话费"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "六月",
+            "entity": "time"
+          },
+          {
+            "start": 12,
+            "end": 23,
+            "value": "18506107025",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "喂 请帮我 看看 六月 18506107025 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 15,
+            "value": "六月",
+            "entity": "time"
+          },
+          {
+            "start": 16,
+            "end": 27,
+            "value": "18506107025",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "您是哪个 能不能 查一下 六月 18506107025 多少话费"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "十月",
+            "entity": "time"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "流量",
+            "entity": "item"
+          }
+        ],
+        "text": "您是哪个 请帮我 查查 十月 流量 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "十月",
+            "entity": "time"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "话费",
+            "entity": "item"
+          }
+        ],
+        "text": "您好吗 请您 查一查 十月 话费 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "上个月",
+            "entity": "time"
+          },
+          {
+            "start": 11,
+            "end": 22,
+            "value": "18912936976",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "您好 看一下 上个月 18912936976 多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 12,
+            "value": "这个月",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "消费",
+            "entity": "item"
+          }
+        ],
+        "text": "哪个 请 看一下 这个月 消费 多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "五月",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 24,
+            "value": "18810397783",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你好 你给我 查下 五月 18810397783 多少流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 15,
+            "value": "这个月",
+            "entity": "time"
+          },
+          {
+            "start": 16,
+            "end": 27,
+            "value": "18912936976",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "您好吗 你能不能 查查 这个月 18912936976 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "上个月",
+            "entity": "time"
+          },
+          {
+            "start": 15,
+            "end": 26,
+            "value": "17501667971",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你好 你能给我 看看 上个月 17501667971 多少话费"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "四月",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "话费",
+            "entity": "item"
+          }
+        ],
+        "text": "你是哪个 请 查查 四月 话费"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "六月",
+            "entity": "time"
+          },
+          {
+            "start": 11,
+            "end": 12,
+            "value": "钱",
+            "entity": "item"
+          }
+        ],
+        "text": "喂 请 查一查 六月 钱 多少流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "七月",
+            "entity": "time"
+          },
+          {
+            "start": 8,
+            "end": 9,
+            "value": "钱",
+            "entity": "item"
+          }
+        ],
+        "text": "嗨 查查 七月 钱 多少流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 15,
+            "value": "六月",
+            "entity": "time"
+          },
+          {
+            "start": 16,
+            "end": 27,
+            "value": "18045905302",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "hello 能否 看一下 六月 18045905302 多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "当前月",
+            "entity": "time"
+          },
+          {
+            "start": 15,
+            "end": 26,
+            "value": "17501667971",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你好吗 你能给我 问 当前月 17501667971"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "上上个月",
+            "entity": "time"
+          },
+          {
+            "start": 16,
+            "end": 27,
+            "value": "18810397783",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "您是哪个 请你 知道 上上个月 18810397783 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "十二月",
+            "entity": "time"
+          },
+          {
+            "start": 14,
+            "end": 25,
+            "value": "18045905302",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "hey 请你 查查 十二月 18045905302 多少流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "三月",
+            "entity": "time"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "流量",
+            "entity": "item"
+          }
+        ],
+        "text": "帮我查一下我三月的流量有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "十二月",
+            "entity": "time"
+          },
+          {
+            "start": 14,
+            "end": 25,
+            "value": "18912936976",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "喂 你能给我 查查 十二月 18912936976 多少话费"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "十二月",
+            "entity": "time"
+          },
+          {
+            "start": 11,
+            "end": 22,
+            "value": "18912936976",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你是 看一看 十二月 18912936976 多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "一月",
+            "entity": "time"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "余额",
+            "entity": "item"
+          }
+        ],
+        "text": "嗨 请您 问 一月 余额 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 15,
+            "value": "六月",
+            "entity": "time"
+          },
+          {
+            "start": 16,
+            "end": 27,
+            "value": "18810397783",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "hello 请帮我 查下 六月 18810397783 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "七月",
+            "entity": "time"
+          },
+          {
+            "start": 9,
+            "end": 20,
+            "value": "17501667971",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "在吗 看下 七月 17501667971"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "四月",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 24,
+            "value": "18810397783",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你好吗 我想 查下 四月 18810397783 多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "八月",
+            "entity": "time"
+          },
+          {
+            "start": 12,
+            "end": 23,
+            "value": "18506107025",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "hi 请你 看看 八月 18506107025 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "十二月",
+            "entity": "time"
+          },
+          {
+            "start": 11,
+            "end": 22,
+            "value": "17501667971",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "嗨 你能不能 十二月 17501667971 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "十二月",
+            "entity": "time"
+          },
+          {
+            "start": 12,
+            "end": 23,
+            "value": "18506107025",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "喂 我想 知道 十二月 18506107025 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "一月",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "余额",
+            "entity": "item"
+          }
+        ],
+        "text": "你是 你给我 知道 一月 余额"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "流量",
+            "entity": "item"
+          }
+        ],
+        "text": "帮我查一下我的流量有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 15,
+            "value": "六月",
+            "entity": "time"
+          },
+          {
+            "start": 16,
+            "end": 27,
+            "value": "18810397783",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "hello 请帮我 查下 六月 18810397783 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "四月",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "消费",
+            "entity": "item"
+          }
+        ],
+        "text": "在吗 能否 看一看 四月 消费 多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "八月",
+            "entity": "time"
+          },
+          {
+            "start": 9,
+            "end": 20,
+            "value": "17501667971",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你是 看看 八月 17501667971 多少话费"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "流量",
+            "entity": "item"
+          }
+        ],
+        "text": "喂你好你帮我查看一下我的流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 22,
+            "value": "18006208658",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "hi 你能不能 看看 18006208658 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "上上个月",
+            "entity": "time"
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "value": "消费",
+            "entity": "item"
+          }
+        ],
+        "text": "您好吗 你给我 看下 上上个月 消费 多少流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "一月",
+            "entity": "time"
+          },
+          {
+            "start": 15,
+            "end": 26,
+            "value": "18810397783",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "在吗 你能不能 查一查 一月 18810397783 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "十月",
+            "entity": "time"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "流量",
+            "entity": "item"
+          }
+        ],
+        "text": "哪个 帮我 知道 十月 流量 多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "五月",
+            "entity": "time"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "余额",
+            "entity": "item"
+          }
+        ],
+        "text": "您是哪个 请帮我 知道 五月 余额 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "三月",
+            "entity": "time"
+          },
+          {
+            "start": 10,
+            "end": 21,
+            "value": "18506107025",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "嗨 请您 问 三月 18506107025 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "五月",
+            "entity": "time"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "流量",
+            "entity": "item"
+          }
+        ],
+        "text": "您好 你能给我 查查 五月 流量 多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 22,
+            "value": "18506107025",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "您是哪个 请 问一下 18506107025 多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "七月",
+            "entity": "time"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "余额",
+            "entity": "item"
+          }
+        ],
+        "text": "喂 能不能 看下 七月 余额 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "十月",
+            "entity": "time"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "流量",
+            "entity": "item"
+          }
+        ],
+        "text": "您好吗 看看 十月 流量 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "话费",
+            "entity": "item"
+          }
+        ],
+        "text": "您是哪个 给我 知道 话费 多少流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "五月",
+            "entity": "time"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "余额",
+            "entity": "item"
+          }
+        ],
+        "text": "你是谁 能不能 看看 五月 余额 多少话费"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 14,
+            "value": "上上个月",
+            "entity": "time"
+          },
+          {
+            "start": 15,
+            "end": 26,
+            "value": "18045905302",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你是谁 请你 查下 上上个月 18045905302 多少话费"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 22,
+            "value": "18006208658",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "hi 你能不能 看看 18006208658 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "上个月",
+            "entity": "time"
+          },
+          {
+            "start": 14,
+            "end": 25,
+            "value": "18912936976",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你是 请您 看一下 上个月 18912936976 多少流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 16,
+            "value": "当前月",
+            "entity": "time"
+          },
+          {
+            "start": 17,
+            "end": 28,
+            "value": "18045905302",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你好吗 你能给我 问一下 当前月 18045905302 多少流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "七月",
+            "entity": "time"
+          },
+          {
+            "start": 11,
+            "end": 22,
+            "value": "18006208658",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "喂 能否 查下 七月 18006208658 多少流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "三月",
+            "entity": "time"
+          }
+        ],
+        "text": "你能给我看下我三月份消费多少了吗"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "上个月",
+            "entity": "time"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "消费",
+            "entity": "item"
+          }
+        ],
+        "text": "帮我看一下我上个月消费多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 15,
+            "value": "十二月",
+            "entity": "time"
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "value": "话费",
+            "entity": "item"
+          }
+        ],
+        "text": "hello 请 看一看 十二月 话费 剩下多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "六月",
+            "entity": "time"
+          },
+          {
+            "start": 11,
+            "end": 22,
+            "value": "18506107025",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你是谁 查一查 六月 18506107025 多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "二月",
+            "entity": "time"
+          },
+          {
+            "start": 11,
+            "end": 22,
+            "value": "17501667971",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "您是 请 看看 二月 17501667971 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "一月",
+            "entity": "time"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "流量",
+            "entity": "item"
+          }
+        ],
+        "text": "你好 能不能 查一下 一月 流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "三月",
+            "entity": "time"
+          }
+        ],
+        "text": "你能给我看下我三月份的消费多少了吗"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "八月",
+            "entity": "time"
+          },
+          {
+            "start": 9,
+            "end": 20,
+            "value": "17501667971",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你是 看看 八月 17501667971 多少话费"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "话费",
+            "entity": "item"
+          },
+          {
+            "start": 16,
+            "end": 19,
+            "value": "这个月",
+            "entity": "time"
+          }
+        ],
+        "text": "恩你好啊给我查查我话费的使用情况这个月的"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "这个月",
+            "entity": "time"
+          },
+          {
+            "start": 12,
+            "end": 23,
+            "value": "18045905302",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "嗨 能否 知道 这个月 18045905302 多少流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "这个月",
+            "entity": "time"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "话费",
+            "entity": "item"
+          }
+        ],
+        "text": "在吗 你给我 看一看 这个月 话费 剩下多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 15,
+            "value": "这个月",
+            "entity": "time"
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "value": "流量",
+            "entity": "item"
+          }
+        ],
+        "text": "你是哪个 请您 看一下 这个月 流量 剩下多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "六月",
+            "entity": "time"
+          },
+          {
+            "start": 14,
+            "end": 25,
+            "value": "18006208658",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你是哪个 能不能 问 六月 18006208658 多少话费"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "三月",
+            "entity": "time"
+          },
+          {
+            "start": 15,
+            "end": 26,
+            "value": "18506107025",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "哪个 你能给我 看一下 三月 18506107025 剩下多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "三月",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 24,
+            "value": "18045905302",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "您是哪个 给我 问 三月 18045905302 多少流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "消费",
+            "entity": "item"
+          }
+        ],
+        "text": "你能给我看下我消费多少了吗"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "八月",
+            "entity": "time"
+          },
+          {
+            "start": 14,
+            "end": 25,
+            "value": "18045905302",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "您是哪个 请您 看下 八月 18045905302 多少流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "五月",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 24,
+            "value": "18045905302",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "您是 请帮我 看下 五月 18045905302 多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "十二月",
+            "entity": "time"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "消费",
+            "entity": "item"
+          }
+        ],
+        "text": "我想问一下我十二月是用了多少话费"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "话费",
+            "entity": "item"
+          }
+        ],
+        "text": "您是哪个 给我 知道 话费 多少流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "五月",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 24,
+            "value": "18912936976",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "hi 能否 问一下 五月 18912936976 剩下多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "当前月",
+            "entity": "time"
+          },
+          {
+            "start": 7,
+            "end": 18,
+            "value": "18045905302",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "在吗 当前月 18045905302"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 13,
+            "value": "上上个月",
+            "entity": "time"
+          },
+          {
+            "start": 14,
+            "end": 25,
+            "value": "18045905302",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "哪个 请 看一看 上上个月 18045905302"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "上个月",
+            "entity": "time"
+          },
+          {
+            "start": 14,
+            "end": 25,
+            "value": "18810397783",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "您好 你给我 看下 上个月 18810397783"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "一月",
+            "entity": "time"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "流量",
+            "entity": "item"
+          }
+        ],
+        "text": "你帮我查看一下一月我的流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "流量",
+            "entity": "item"
+          }
+        ],
+        "text": "你是 请您 查一下 流量 多少话费"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 12,
+            "value": "这个月",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "消费",
+            "entity": "item"
+          }
+        ],
+        "text": "哪个 请 看一下 这个月 消费 多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "二月",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 24,
+            "value": "18506107025",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "您好吗 给我 看下 二月 18506107025 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "五月",
+            "entity": "time"
+          },
+          {
+            "start": 14,
+            "end": 25,
+            "value": "18006208658",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "喂 你能不能 查一下 五月 18006208658 多少流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 15,
+            "value": "十一月",
+            "entity": "time"
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "value": "余额",
+            "entity": "item"
+          }
+        ],
+        "text": "在吗 你能给我 查一下 十一月 余额 多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "话费",
+            "entity": "item"
+          }
+        ],
+        "text": "你是谁 话费 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "二月",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 24,
+            "value": "18912936976",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "hi 请你 查一查 二月 18912936976 剩下多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "二月",
+            "entity": "time"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "流量",
+            "entity": "item"
+          }
+        ],
+        "text": "你好 请 问一下 二月 流量 多少话费"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "六月",
+            "entity": "time"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "消费",
+            "entity": "item"
+          }
+        ],
+        "text": "帮我看一下我六月消费多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "当前月",
+            "entity": "time"
+          },
+          {
+            "start": 12,
+            "end": 23,
+            "value": "18912936976",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "在吗 请 看下 当前月 18912936976 多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "本月",
+            "entity": "time"
+          },
+          {
+            "start": 15,
+            "end": 26,
+            "value": "18810397783",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "您是哪个 我想 查一下 本月 18810397783"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "当前月",
+            "entity": "time"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "消费",
+            "entity": "item"
+          }
+        ],
+        "text": "你是 我想 当前月 消费"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 13,
+            "value": "这个月",
+            "entity": "time"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "余额",
+            "entity": "item"
+          }
+        ],
+        "text": "您好 请帮我 看看 这个月 余额 多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "现在",
+            "entity": "time"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "余额",
+            "entity": "item"
+          }
+        ],
+        "text": "我现在还有多少话费余额啊"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "八月",
+            "entity": "time"
+          },
+          {
+            "start": 15,
+            "end": 26,
+            "value": "18506107025",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你好吗 能不能 查一下 八月 18506107025 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "八月",
+            "entity": "time"
+          },
+          {
+            "start": 12,
+            "end": 23,
+            "value": "18506107025",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "hi 请你 看看 八月 18506107025 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "四月",
+            "entity": "time"
+          },
+          {
+            "start": 15,
+            "end": 26,
+            "value": "18912936976",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "您是哪个 给我 查一查 四月 18912936976 剩下多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "八月",
+            "entity": "time"
+          },
+          {
+            "start": 7,
+            "end": 18,
+            "value": "18045905302",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "请帮我 八月 18045905302 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "这个月",
+            "entity": "time"
+          },
+          {
+            "start": 12,
+            "end": 23,
+            "value": "17501667971",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "喂 请 查一下 这个月 17501667971 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "七月",
+            "entity": "time"
+          },
+          {
+            "start": 14,
+            "end": 25,
+            "value": "18506107025",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你是 你给我 看一下 七月 18506107025 多少流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "十一月",
+            "entity": "time"
+          },
+          {
+            "start": 8,
+            "end": 19,
+            "value": "18912936976",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "请帮我 十一月 18912936976 多少流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 21,
+            "value": "18045905302",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你是哪个 请 查下 18045905302"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "七月",
+            "entity": "time"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "余额",
+            "entity": "item"
+          }
+        ],
+        "text": "喂 能不能 看下 七月 余额 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "十一月",
+            "entity": "time"
+          },
+          {
+            "start": 11,
+            "end": 22,
+            "value": "18506107025",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你是谁 查下 十一月 18506107025 多少话费"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "八月",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 24,
+            "value": "18006208658",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "您是 能否 问一下 八月 18006208658 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "十月",
+            "entity": "time"
+          },
+          {
+            "start": 7,
+            "end": 18,
+            "value": "18810397783",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你是谁 十月 18810397783 多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "八月",
+            "entity": "time"
+          },
+          {
+            "start": 14,
+            "end": 25,
+            "value": "17501667971",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你是哪个 给我 看看 八月 17501667971 剩下多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "本月",
+            "entity": "time"
+          },
+          {
+            "start": 7,
+            "end": 18,
+            "value": "18912936976",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "嗨 请 本月 18912936976 剩下多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 12,
+            "value": "当前月",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "流量",
+            "entity": "item"
+          }
+        ],
+        "text": "您好 能否 看看 当前月 流量 多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 15,
+            "value": "十二月",
+            "entity": "time"
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "value": "话费",
+            "entity": "item"
+          }
+        ],
+        "text": "hello 请 看一看 十二月 话费 剩下多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "七月",
+            "entity": "time"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "话费",
+            "entity": "item"
+          }
+        ],
+        "text": "你是谁 我想 问 七月 话费"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 17,
+            "value": "当前月",
+            "entity": "time"
+          },
+          {
+            "start": 18,
+            "end": 20,
+            "value": "消费",
+            "entity": "item"
+          }
+        ],
+        "text": "hello 你能不能 看看 当前月 消费 多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 13,
+            "end": 15,
+            "value": "七月",
+            "entity": "time"
+          },
+          {
+            "start": 16,
+            "end": 17,
+            "value": "钱",
+            "entity": "item"
+          }
+        ],
+        "text": "hello 请帮我 看看 七月 钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "九月",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "话费",
+            "entity": "item"
+          }
+        ],
+        "text": "您是 能不能 查下 九月 话费 多少流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "七月",
+            "entity": "time"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "余额",
+            "entity": "item"
+          }
+        ],
+        "text": "你是哪个 帮我 查一下 七月 余额 多少流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "五月",
+            "entity": "time"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "话费",
+            "entity": "item"
+          }
+        ],
+        "text": "你是谁 你能不能 五月 话费 多少话费"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "本月",
+            "entity": "time"
+          },
+          {
+            "start": 14,
+            "end": 25,
+            "value": "18045905302",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你是 你能给我 查下 本月 18045905302 多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "十月",
+            "entity": "time"
+          },
+          {
+            "start": 14,
+            "end": 25,
+            "value": "18006208658",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "哪个 你给我 问一下 十月 18006208658 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "十二月",
+            "entity": "time"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "消费",
+            "entity": "item"
+          }
+        ],
+        "text": "你能不能 看下 十二月 消费"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 15,
+            "value": "这个月",
+            "entity": "time"
+          },
+          {
+            "start": 16,
+            "end": 27,
+            "value": "18912936976",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "您好 你能不能 问一下 这个月 18912936976 多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "上上个月",
+            "entity": "time"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "消费",
+            "entity": "item"
+          }
+        ],
+        "text": "你好 查一查 上上个月 消费 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "上上个月",
+            "entity": "time"
+          },
+          {
+            "start": 16,
+            "end": 27,
+            "value": "18810397783",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "您好吗 我想 查一查 上上个月 18810397783 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "上上个月",
+            "entity": "time"
+          },
+          {
+            "start": 19,
+            "end": 30,
+            "value": "18506107025",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "hello 请帮我 问一下 上上个月 18506107025 多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "一月",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "话费",
+            "entity": "item"
+          }
+        ],
+        "text": "我想问一下我一月是用了多少话费"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "一月",
+            "entity": "time"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "余额",
+            "entity": "item"
+          }
+        ],
+        "text": "您是 你能给我 看下 一月 余额 剩下多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "十二月",
+            "entity": "time"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "消费",
+            "entity": "item"
+          }
+        ],
+        "text": "帮我查一下我十二月消费多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "二月",
+            "entity": "time"
+          },
+          {
+            "start": 11,
+            "end": 22,
+            "value": "17501667971",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "您是 请 看看 二月 17501667971 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "上上个月",
+            "entity": "time"
+          },
+          {
+            "start": 16,
+            "end": 27,
+            "value": "18912936976",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你是谁 帮我 查一查 上上个月 18912936976 多少话费"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 9,
+            "end": 11,
+            "value": "十月",
+            "entity": "time"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "流量",
+            "entity": "item"
+          }
+        ],
+        "text": "hey 请 查查 十月 流量 多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "当前月",
+            "entity": "time"
+          },
+          {
+            "start": 12,
+            "end": 23,
+            "value": "18912936976",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "在吗 请 看下 当前月 18912936976 多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "十月",
+            "entity": "time"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "话费",
+            "entity": "item"
+          }
+        ],
+        "text": "hello 你给我 问 十月 话费 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "八月",
+            "entity": "time"
+          },
+          {
+            "start": 7,
+            "end": 18,
+            "value": "18045905302",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "请帮我 八月 18045905302 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "六月",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "消费",
+            "entity": "item"
+          }
+        ],
+        "text": "我想问一下我六月是用了多少话费"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 12,
+            "end": 15,
+            "value": "当前月",
+            "entity": "time"
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "value": "流量",
+            "entity": "item"
+          }
+        ],
+        "text": "hello 请帮我 问 当前月 流量 多少流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "二月",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 24,
+            "value": "18506107025",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "您好吗 给我 看下 二月 18506107025 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 10,
+            "end": 12,
+            "value": "十月",
+            "entity": "time"
+          },
+          {
+            "start": 13,
+            "end": 24,
+            "value": "17501667971",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "你好 请您 查一查 十月 17501667971 多少话费"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "一月",
+            "entity": "time"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "消费",
+            "entity": "item"
+          }
+        ],
+        "text": "帮我查一下我一月消费多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "十一月",
+            "entity": "time"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "话费",
+            "entity": "item"
+          }
+        ],
+        "text": "能不能 问 十一月 话费 有多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 9,
+            "value": "上个月",
+            "entity": "time"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "消费",
+            "entity": "item"
+          }
+        ],
+        "text": "帮我看一下我上个月消费多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "上上个月",
+            "entity": "time"
+          },
+          {
+            "start": 12,
+            "end": 23,
+            "value": "17501667971",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "请您 看一看 上上个月 17501667971"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "九月",
+            "entity": "time"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "消费",
+            "entity": "item"
+          }
+        ],
+        "text": "你是哪个 看下 九月 消费 多少流量"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "五月",
+            "entity": "time"
+          },
+          {
+            "start": 14,
+            "end": 25,
+            "value": "18045905302",
+            "entity": "phone_number"
+          }
+        ],
+        "text": "hi 你给我 问一下 五月 18045905302 多少话费"
+      },
+      {
+        "intent": "thanks",
+        "text": "非常感谢"
+      },
+      {
+        "intent": "thanks",
+        "text": "谢谢你"
+      },
+      {
+        "intent": "thanks",
+        "text": "谢谢你"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "&"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "附近哪里有餐厅？"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "附近有吃饭的地方吗？"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "你吃了吗？"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "我饿了"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": [
+      {
+        "value": "流量",
+        "synonyms": [
+          "量业"
+        ]
+      },
+      {
+        "value": "消费",
+        "synonyms": [
+          "话费"
+        ]
+      },
+      {
+        "value": "这个月",
+        "synonyms": [
+          "这个"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "time",
+        "item"
+      ]
+    },
+    "utter_goodbye": {
+      "slots": []
+    },
+    "utter_greet": {
+      "slots": []
+    },
+    "utter_thanks": {
+      "slots": []
+    }
+  },
+  "python": "3.6.6",
+  "max_histories": [
+    3,
+    null,
+    3
+  ],
+  "ensemble_name": "rasa.core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "policy.attention_policy.AttentionPolicy",
+    "rasa.core.policies.fallback.FallbackPolicy",
+    "rasa.core.policies.memoization.MemoizationPolicy"
+  ],
+  "trained_at": "20190802-222057",
+  "rasa": "1.1.8",
+  "tensorflow": "1.13.2",
+  "sklearn": "0.19.2"
+}
