@@ -1,0 +1,100 @@
+/*------------------Checkbox----------------------*/
+.checkboxWrapper{
+	display:block; /* you can replace with 'display:inline-block' if you want parent element inline */
+}
+
+.checkboxWrapper input[type="checkbox"] {
+	display: none;
+}
+
+.checkboxWrapper input[type="checkbox"] + label {
+	cursor: pointer;
+	display:block;
+}
+
+.checkboxWrapper input[type="checkbox"] + label i {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.checkboxWrapper input[type="checkbox"] + label path {
+	stroke-dashoffset: -189;
+	stroke: inherit;
+	stroke-dasharray: 189;
+	transition: all ease-in-out 0.5s;
+	-webkit-transition: all ease-in-out 0.5s;
+	-moz-transition: all ease-in-out 0.5s;
+	-ms-transition: all ease-in-out 0.5s;
+	-o-transition: all ease-in-out 0.5s;
+}
+
+.checkboxWrapper input[type="checkbox"]:checked + label path {
+	stroke-dashoffset: 0;
+}
+/*----------------------Themes------------------------*/
+/* Turquoise theme */
+	.theme1{
+		stroke:#1ABC9C;	
+	}
+/**/
+
+/* Emerald theme */
+	.theme2{
+		stroke:#2ECC71;
+	}
+/**/
+
+/* Peterriver theme */
+	.theme3{
+		stroke:#3498DB;
+	}
+/**/
+
+/* Amethyst theme */
+	.theme4{
+		stroke:#9B59B6;
+	}
+/**/
+
+/* Wet Asphalt theme */
+	.theme5{
+		stroke:#34495E;
+	}
+/**/
+
+/* Carrot theme */
+	.theme6{
+		stroke:#E67E22;
+	}
+/**/
+/* Alizarin theme */
+	.theme7{
+		stroke:#E74C3C;
+	}
+/**/
+
+/*-----------------------Sizes------------------------------*/
+.extraSmallCheckboxSize.checkboxWrapper input[type="checkbox"] + label i svg{
+	width:20px;
+	height:20px;
+}
+
+.smallCheckboxSize.checkboxWrapper input[type="checkbox"] + label i svg{
+	width:30px;
+	height:30px;
+}
+
+.mediumCheckboxSize.checkboxWrapper input[type="checkbox"] + label i svg{
+	width:40px;
+	height:40px;
+}
+
+.largeCheckboxSize.checkboxWrapper input[type="checkbox"] + label i svg{
+	width:50px;
+	height:50px;
+}
+
+.extraLargeCheckboxSize.checkboxWrapper input[type="checkbox"] + label i svg{
+	width:60px;
+	height:60px;
+}
